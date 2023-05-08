@@ -1,0 +1,19 @@
+Function palindrome(n: word): word
+
+BEGIN
+
+IF len(word) <= 1 THEN
+
+Return True;
+
+IF firstLetter == lastLetter THEN
+
+Return palindrome(word[1: -1]);
+
+Else
+
+Return False;
+
+END_IF
+
+END
